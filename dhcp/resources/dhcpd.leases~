@@ -1,0 +1,110 @@
+# The format of this file is documented in the dhcpd.leases(5) manual page.
+# This lease file was written by isc-dhcp-4.3.3
+
+lease 192.168.137.23 {
+  starts 5 2018/01/12 14:37:15;
+  ends 6 2018/01/13 02:37:15;
+  tstp 6 2018/01/13 02:37:15;
+  cltt 5 2018/01/12 14:37:15;
+  binding state free;
+  hardware ethernet 08:00:27:c4:08:ce;
+  uid "\001\010\000'\304\010\316";
+  set vendor-class-identifier = "d-i";
+}
+lease 192.168.137.26 {
+  starts 0 2018/01/14 18:26:40;
+  ends 0 2018/01/14 18:40:13;
+  tstp 0 2018/01/14 18:40:13;
+  cltt 0 2018/01/14 18:26:40;
+  binding state free;
+  hardware ethernet f4:ce:46:0f:26:44;
+  uid "\001\364\316F\017&D";
+}
+lease 192.168.137.27 {
+  starts 1 2018/01/15 07:07:16;
+  ends 1 2018/01/15 19:07:16;
+  tstp 1 2018/01/15 19:07:16;
+  cltt 1 2018/01/15 07:07:16;
+  binding state free;
+  hardware ethernet 08:00:27:c4:08:ce;
+}
+lease 192.168.137.28 {
+  starts 3 2018/01/17 18:55:15;
+  ends 3 2018/01/17 23:26:00;
+  tstp 3 2018/01/17 23:26:00;
+  cltt 3 2018/01/17 19:16:54;
+  binding state free;
+  hardware ethernet 08:00:27:fd:38:d6;
+}
+lease 192.168.137.21 {
+  starts 5 2018/01/26 15:53:15;
+  ends 5 2018/01/26 20:05:07;
+  tstp 5 2018/01/26 20:05:07;
+  cltt 5 2018/01/26 15:53:15;
+  binding state free;
+  hardware ethernet d8:cb:8a:1c:a4:c9;
+}
+lease 192.168.137.30 {
+  starts 5 2018/01/26 15:53:02;
+  ends 6 2018/01/27 03:53:02;
+  tstp 6 2018/01/27 03:53:02;
+  cltt 5 2018/01/26 15:53:02;
+  binding state free;
+  hardware ethernet d8:cb:8a:1c:a4:c9;
+}
+lease 192.168.137.20 {
+  starts 6 2018/01/27 06:12:30;
+  ends 6 2018/01/27 06:14:24;
+  tstp 6 2018/01/27 06:14:24;
+  cltt 6 2018/01/27 06:12:30;
+  binding state free;
+  hardware ethernet 00:26:b9:e7:2b:89;
+}
+lease 192.168.137.29 {
+  starts 6 2018/01/27 00:08:57;
+  ends 6 2018/01/27 12:08:57;
+  tstp 6 2018/01/27 12:08:57;
+  cltt 6 2018/01/27 00:08:57;
+  binding state free;
+  hardware ethernet 08:00:27:ce:d0:c7;
+}
+lease 192.168.137.24 {
+  starts 6 2018/01/27 04:19:48;
+  ends 6 2018/01/27 16:19:48;
+  tstp 6 2018/01/27 16:19:48;
+  cltt 6 2018/01/27 06:00:12;
+  binding state free;
+  hardware ethernet 08:00:27:87:45:9d;
+}
+lease 192.168.137.22 {
+  starts 6 2018/01/27 06:21:48;
+  ends 6 2018/01/27 18:21:48;
+  tstp 6 2018/01/27 18:21:48;
+  cltt 6 2018/01/27 06:21:48;
+  binding state free;
+  hardware ethernet 08:00:27:13:37:fb;
+}
+lease 192.168.137.25 {
+  starts 0 2018/01/28 15:48:10;
+  ends 1 2018/01/29 03:48:10;
+  cltt 0 2018/01/28 15:48:10;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet d8:cb:8a:1c:a4:c9;
+  uid "\001\330\313\212\034\244\311";
+  set vendor-class-identifier = "MSFT 5.0";
+  client-hostname "GH0ST";
+}
+lease 192.168.137.25 {
+  starts 0 2018/01/28 21:48:09;
+  ends 1 2018/01/29 09:48:09;
+  cltt 0 2018/01/28 21:48:09;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet d8:cb:8a:1c:a4:c9;
+  uid "\001\330\313\212\034\244\311";
+  set vendor-class-identifier = "MSFT 5.0";
+  client-hostname "GH0ST";
+}
