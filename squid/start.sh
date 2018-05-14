@@ -9,3 +9,4 @@ docker run --name squid -d --restart=always \
 	--volume /opt/dockerdrive/squidcache:/var/spool/squid3 \
 	localhost:5000/sameersbn/squid
 docker start squid
+docker exec -it squid tail -F /var/log/squid3/access.log
